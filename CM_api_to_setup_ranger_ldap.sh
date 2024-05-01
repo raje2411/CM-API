@@ -9,7 +9,7 @@ validate_credentials() {
 }
 
 # Cloudera Manager host URL
-read -p "Cloudera Manager host URL: " cm_host
+read -p "Cloudera Manager hostname: " cm_host
 
 # Cloudera Manager port (default: 7180)
 read -p "Cloudera Manager port(7180): " input_port
